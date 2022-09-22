@@ -1,3 +1,13 @@
+.container {
+    margin: 20px 20px;
+    padding: 50px;
+    background-color: rgb(232, 232, 232);
+}
+
+body {
+    background-color: rgb(168, 130, 168);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
