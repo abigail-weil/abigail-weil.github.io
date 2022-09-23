@@ -33,3 +33,8 @@ ul li a {
 ul li a:hover {
     background-color: rgb(240, 240, 240);
 }
+
+h1 {
+    color: rgb(103, 56, 103);
+    padding-top: 30px;
+}
