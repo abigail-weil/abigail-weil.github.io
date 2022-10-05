@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+
+<body>
+    <h1>let's learn javascript!</h1>
+    <h2>how do we onclick events and alerts?</h2>
+    <a href="https://eastsideprep.org" target="_blank"
+        onclick="alert('Warning! you are navigating away from my page!')">school website</a>
+
+    <hr>
+    <h2>What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button
+        onclick="document.getElementById('secret') .innerHTML='Nana nana nana nana, Batman!'; document.getElementById('secret').style.display='block'">
+        Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+
+    <hr>
+    <h2>Abigail Weilbacher: Two truths and a lie</h2>
+    <p>Which one is the lie?</p>
+    <ol>
+        <li id="lie">I have jumped out of a plane</li>
+        <li>I have a cat named Juniper</li>
+        <li>I have two dogs</li>
+    </ol>
+    <button onclick="document.getElementById('lie') .style.color='red'">click here to find out!</button>
+
+    <hr>
+    <h2>How do we change images with javascript?</h2>
+    <img src="images/sad-cat.jpg" alt="sadCat" id="my-image">
+    <br>
+    <button onclick="document.getElementById('my-image').src='images/happy-cat.jpg'">Make cat happy</button>
+    <button onclick="document.getElementById('my-image').src='images/sad-cat.jpg'">Make cat sad</button>
+
+    <hr>
+    <h2>How do I change css styles with a button?</h2>
+    <p id="alice">Hi. I am Alice.</p>
+    <button
+        onclick="document.getElementById('alice') .style.color='blue'; document.getElementById('alice') .style.fontSize='5px'">Cake:
+        Eat me!</button>
+    <button
+        onclick="document.getElementById('alice') .style.color='red'; document.getElementById('alice') .style.fontSize='40px'">Potion:
+        Drink me!</button>
+    <button onclick="normalAlice()">Return to normal</button>
+
+    <hr>
+    <h2>How do we return user input data?</h2>
+    <button onclick="askName();">What's your name?</button>
+    <p id="ask-name"></p>
+
+    <hr>
+    <br>
+    <button onclick="document.body.style.backgroundColor='purple'">click here to change background color!</button>
+    <button onclick="document.body.style.textAlign='right'">click here to move all text to the right!</button>
+
+    <script>
+        function normalAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'black';
+            aliceParagraph.style.fontSize = '20px';
+        }
+
+        function askName() {
+            let nameParagraph = document.getElementById('ask-name');
+            let name = prompt("What is your name?");
+            if (name === "batman") {
+                nameParagraph.innerHTML = "Welcome to the Bat Cave sir.";
+            } else {
+                nameParagraph.innerHTML = "Hello " + name + "! Nice to meet you."
+            }
+        }
+    </script>
+</body>
+
+</html>
