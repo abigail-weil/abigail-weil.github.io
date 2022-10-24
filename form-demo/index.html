@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail Weilbacher's Truth and Lie Game</title>
+</head>
+
+<body>
+    <h1>Abigail Weilbacher's Truth and Lie Game</h1>
+    <p id="greet" style="font-size:x-large;">Welcome!</p>
+    <h2>Introductions</h2>
+
+    <form action="" id="name-form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="greet"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="greet"><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="greet">
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="greet();">
+
+    <hr>
+    <h2>Warm up trivial question</h2>
+    <p>What is the only food that cannot go bad?</p>
+    <p id="trivia-answer"></p>
+    <form action="">
+        <input type="radio" name="trivia" id="chocolate">
+        <label for="chocolate">Dark chocolate</label><br>
+        <input type="radio" name="trivia" id="tuna">
+        <label for="tuna">Canned tuna</label><br>
+        <input type="radio" name="trivia" id="honey">
+        <label for="honey">Honey</label>
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="trivia();">
+
+    <hr>
+    <p>Two truths and a lie. Which one is the lie?</p>
+    <p id="lie-answer"></p>
+    <form action="">
+        <input type="radio" name="lie" id="cat">
+        <label for="cat">My favorite animal is a cat.</label><br>
+        <input type="radio" name="lie" id="plane">
+        <label for="plane">I have jumped off a plane.</label><br>
+        <input type="radio" name="lie" id="tomato">
+        <label for="tomato">I like tomatoes.</label>
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="lie();">
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
