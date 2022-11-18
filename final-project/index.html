@@ -6,37 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/las7csv.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>FREMONT VINTAGE MALL</title>
 </head>
 
-<body style="background-color:rgb(242, 237, 221);">
+<body id="body">
     <nav class="navbar navbar-expand-sm .bg-color fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" id="logo" href="#">
-                <img src="images/logo.jpg" class="rounded-pill" alt="Logo" style="width:50px;">
+                <img src="images/logo.jpg" style="width:50px;">
             </a>
             <ul class="navbar-nav nav-text">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color: rgb(139, 114, 65);">HOME</a>
+                    <a class="nav-link active" href="index.html" style="color: rgb(139, 114, 65);">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color: rgb(139, 114, 65);">ARCHIVE</a>
+                    <a class="nav-link active" href="archive.html" style="color: rgb(139, 114, 65);">ARCHIVE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color: rgb(139, 114, 65);">SOLD ITEMS</a>
+                    <a class="nav-link active" href="sold.html" style="color: rgb(139, 114, 65);">SOLD ITEMS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color: rgb(139, 114, 65);">CONTACT US</a>
+                    <a class="nav-link active" href="about.html" style="color: rgb(139, 114, 65);">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html" style="color: rgb(139, 114, 65);">CONTACT US</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <h1 id="title">FREMONT VINTAGE MALL</h1>
+    <h1 class="title" style="margin-top: 110px; margin-bottom: 20px;">FREMONT VINTAGE MALL</h1>
 
     <div class="row">
         <div class="col-sm-5" id="carousel">
@@ -72,57 +75,67 @@
 
         <div class="col-sm-5 text" style="margin-top: 20px;">
             <h4>Location:</h4>
-            <p>3419 Fremont Ave N, Seattle, WA 98103</p>
-            <h4 style="margin-top: 50px">Hours:</h4>
-            <p>mon-sun: 11am-7pm</p>
+            <a href="https://www.google.com/maps/place/Fremont+Building,+3419+Fremont+Ave+N,+Seattle,+WA+98103/@47.650215,-122.3531765,16.58z/data=!4m5!3m4!1s0x5490150730fa6387:0x3a2dc1064e787d10!8m2!3d47.6502779!4d-122.3501553"
+                target="_blank" id="link" onclick="alert('Warning! You are navigating away from our page!')">3419
+                Fremont Ave N, Seattle, WA 98103</a>
+            <h4 style="margin-top: 30px">Hours:</h4>
+            <p>Mon-Sun: 11am-7pm</p>
             <a href="https://www.instagram.com/fremontvintagemall/" class="fa fa-instagram" target="_blank"></a>
             <a href="https://www.facebook.com/seafremontvintagemall/?ref=bookmarks" class="fa fa-facebook"
                 target="_blank"></a>
-        </div>
-    </div>
-
-    <div class="row text-italic">
-        <div class="col-sm-7">
-            <p style="margin-left: 50px; margin-top: 20px;">The coolest vintage store in the center of the Universe!
+            <p class="bold-font" style="font-size: 15px;" id="description">The coolest vintage store in the
+                center of the Universe!
                 Located in Fremont,
                 Seattle,
                 WA. We are a collective featuring vintage/mid-century furniture, collectibles, and antiques.</p>
         </div>
     </div>
 
-    <div class="row img-layout">
+    <div class="row img-layout" style="margin-top: 70px;">
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/836d00f1abe8114b69f86084ede49544/a09de237dbee65eb-cb/s1280x1920/2c5fd8734c9c018444592449ea9e2aebf3db442c.jpg"
-                alt="image1">
+            <a href="https://www.instagram.com/p/CkOkKJiPHGs/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/8827598ff25d6a456b192b789fa1b877/9d90c8e7e4832918-46/s1280x1920/91400d6b6dd63ea784b0bbe1f7d5763cc7c64cd3.jpg"
+                    alt="image1">
+            </a>
         </div>
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/aa0501f1ccdd03cb1e8bd3922e85f257/e4d0538d8ddae11a-25/s1280x1920/9fd7e044997e341d2834e309101da0c438c21808.jpg"
-                alt="image2">
+            <a href="https://www.instagram.com/p/Ckq9AJBv5dq/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/aa0501f1ccdd03cb1e8bd3922e85f257/e4d0538d8ddae11a-25/s1280x1920/9fd7e044997e341d2834e309101da0c438c21808.jpg"
+                    alt="image2">
+            </a>
         </div>
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/a643e3535fcb92e7bf22a59cb5276c68/889d04ed3862fd3a-d7/s1280x1920/41be439a48bc6dbf1fa6c056b2c26f67460b8940.jpg"
-                alt="image3">
+            <a href="https://www.instagram.com/p/CkRmiAePJf4/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/b58ae61b685d5861c9c61da4967b4c06/4d38781ff5521690-54/s1280x1920/9acf33e4db85669b1709da4ac8c132cfc9931736.jpg"
+                    alt="image3">
+            </a>
         </div>
     </div>
 
-    <div class="row img-layout">
+    <div class="row img-layout" style="margin-top: 20px;">
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/066cf3fe0306584dc52f8fabc54ae130/856e803939dc15ab-d9/s1280x1920/91934c0c633262f975377cc0a884dee66a2cdcd4.jpg"
-                alt="image4">
+            <a href="https://www.instagram.com/p/CjbeJF3vRRx/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/61f3aea57b81bb83a8260bcf75536500/5b67a79ef48c5c30-f0/s1280x1920/acd80f4cd87b19569e952c24bbca11d0b565dc07.jpg"
+                    alt="image4">
+            </a>
         </div>
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/6297dd1ca4d5a669a79b3fa83979918b/d6a49a8c5fabdcd0-10/s1280x1920/c35523d6a9cad17da7f1716a56a81ad7b673f311.jpg"
-                alt="image5">
+            <a href="https://www.instagram.com/p/CjyuoMyvs3G/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/3b810d9e9d0096a8b6edffd127086ba2/843de5a912b35ecc-43/s1280x1920/aafcb01f6c7567426b024d82373394c62da14a44.jpg"
+                    alt="image5">
+            </a>
         </div>
         <div class="col-sm-4">
-            <img class="insta-img"
-                src="https://64.media.tumblr.com/b469c502d0557ee051684e3cf2cabc7f/e6e63a7182a3ad29-c0/s1280x1920/aa78ad81a2375fae96664ce02bb4dc13d523fece.jpg"
-                alt="image6">
+            <a href="https://www.instagram.com/p/CgxGPPwvUIb/" target="_blank">
+                <img class="insta-img"
+                    src="https://64.media.tumblr.com/bb121f62ef770ea62e2de16790ec2a13/ed9f84e013d5c5c8-72/s1280x1920/028b2a3a69f96befa89364d7b96e4e07f9ea5e13.jpg"
+                    alt="image6">
+            </a>
         </div>
     </div>
 

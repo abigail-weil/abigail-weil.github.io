@@ -1,0 +1,169 @@
+#body {
+    background-color: rgb(242, 230, 221);
+}
+
+.navbar {
+    padding: 10;
+    background-color: rgb(70, 49, 7);
+}
+
+.nav-text {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(139, 114, 65);
+}
+
+.title {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(70, 49, 7);
+}
+
+#carousel {
+    margin-left: 50px;
+}
+
+.text {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(70, 49, 7);
+}
+
+#link {
+    color: rgb(70, 49, 7);
+}
+
+#link:hover {
+    color: rgb(128, 99, 42);
+}
+
+.text-italic {
+    font-family: fantabular-sans-mvb, mono;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fa {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 30px;
+    width: 43px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(70, 49, 7);
+    color: white;
+}
+
+.fa-facebook {
+    background: rgb(70, 49, 7);
+    color: white;
+}
+
+.insta-img {
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.big-logo-img {
+    width: 230px;
+    margin-top: 35px;
+    margin-left: 220px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(70, 49, 7);
+}
+
+.history-img {
+    width: 500px;
+}
+
+.insta-img:hover {
+    opacity: 0.7;
+}
+
+.img-layout {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.archive-img-layout {
+    margin-left: 30px;
+    margin-right: 98px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.archive-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.archive-img:hover {
+    opacity: 0.7;
+}
+
+#contact-img {
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+}
+
+#description {
+    margin-top: 27px;
+    background-color: rgb(206, 188, 153);
+    padding: 10px;
+    color: rgb(70, 49, 7);
+    font-size: 12px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(70, 49, 7);
+}
+
+.bold-font {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(70, 49, 7);
+}
+
+/* "img-wrapper" code learned from Code Pen */
+.img-wrapper {
+    align-items: flex-start;
+}
+
+.sold-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card {
+    font-size: 0.9em;
+    width: 300px;
+}
+
+/* code learned from Coding Yaar ends here */
